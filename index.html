@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contos para Euros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="imgs/euro.png">
+    <h1>Contos para Euros</h1>
+    <div>
+    <label>Quantidade em Euros:</label><br>
+    <input type="text" class="i" id="euroInput"><br>
+    <input type="submit" onclick='eurosParaContos()'><br><br>
+    <p id="contos"></p><br>
+    </div>
+    <div>
+    <label>Quantidade em Contos:</label><br>
+    <input type="text" class="i" id="contoInput"><br>
+    <input type="submit" onclick='contosParaEuros()'><br><br>
+    <p id="euros"></p><br>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
